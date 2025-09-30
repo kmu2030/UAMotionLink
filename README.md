@@ -66,10 +66,10 @@ UAMotionLinkLib and SingleMCController were built in the following environment:
 ## Library Structure
 UAMotionLinkLib consists of the following:
 
-  * **UAMotionLinkLib.slr**
+  * **UAMotionLinkLib.slr**   
     A library for Sysmac projects. It is used by referencing it in a project.
 
-  * **UAMotionLinkLib.smc2**
+  * **UAMotionLinkLib.smc2**   
     A Sysmac project for UAMotionLinkLib development. It includes test programs for the reference client.
 
 ## How to Use the Library
@@ -77,35 +77,35 @@ Follow these steps to use the library:
 
 1.  **Reference UAMotionLinkLib.slr in your project.**
 
-2.  **Build the project and confirm there are no errors.**
+2.  **Build the project and confirm there are no errors.**   
     This verifies that there are no identifier conflicts within the project.
 
-3.  **Execute the BasicMCControllerModel FB (model FB) in an appropriate program POU.**
+3.  **Execute the BasicMCControllerModel FB (model FB) in an appropriate program POU.**   
     Because it contains motion FBs, the program POU must be executed in the primary task.
 
-4.  **Expose the model FB in the OPC UA settings.**
+4.  **Expose the model FB in the OPC UA settings.**   
     Refer to the manufacturer's manual for instructions on exposing FB instances.
     Assign appropriate user roles to each method.
 
 ## Reference Client Structure
 The main components of the reference client are:
 
-  * **BasicMCController.ps1**
+  * **BasicMCController.ps1**   
     The reference client itself.
 
-  * **BasicMCController.Tests.ps1**
+  * **BasicMCController.Tests.ps1**   
     Tests for the reference client and model using `Pester` and `UAMotionLinkLib.smc2`.
 
-  * **ModelTestController.ps1**
+  * **ModelTestController.ps1**   
     Operates the test program running in `UAMotionLinkLib.smc2`.
 
-  * **SingleMCController.ps1**
+  * **SingleMCController.ps1**   
     Defines a derived class of BasicMCController, intended for use by an AI agent.
 
-  * **SingleMCController.psm1**
+  * **SingleMCController.psm1**   
     The module for the reference client. This file must be imported to use the reference client.
 
-  * **PwshOpcUaClient/**
+  * **PwshOpcUaClient/**   
     This is the PwshOpcUaClient. For usage, refer to [PwshOpcUaClient](https://www.google.com/search?q=https://github.com/kmu2030/PwshOpcUaClient).
 
 ## How to Use the Reference Client

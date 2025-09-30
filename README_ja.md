@@ -101,10 +101,10 @@ UAMotionLinkLibは、以下で構成します。
 * **ModelTestController.ps1**   
   `UAMotionLinkLib.smc2`で動作するテストプログラムを操作します。
 
-* **SingleMCController.ps1**
+* **SingleMCController.ps1**   
   AIエージェントに参照させることを目的にしたBasicMCControllerの派生クラスを定義しています。
 
-* **SingleMCController.psm1**
+* **SingleMCController.psm1**   
   リファレンスクライアントのモジュールです。
   リファレンスクライアントを使用する場合、このファイルをインポートします。
 
