@@ -1,0 +1,15 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+*.vsix
+
+*/PwshOpcUaClient/*
+!*/PwshOpcUaClient/*.ps1
+
+.env
+.README.md.swp
+*.smc2.backup
