@@ -1,8 +1,8 @@
 # UAMotionLinkLib
 **UAMotionLinkLib** is a library that provides an external motion control interface for OMRON's NX/NJ controllers.
 It makes motion function blocks (motion FBs) available via a wrapper on the controller's or simulator's OPC UA server, allowing motion control through an OPC UA client.
-**UAMotionLinkLib** exposes motion FB operations as a pseudo-UA method, as demonstrated in [PseudoUAMethodExample](https://www.google.com/search?q=https://github.com/kmu2030/PseudoUAMethodExample).
-It also includes a reference client (**SingleMCController**) and tests that use [PwshOpcUaClient](https://www.google.com/search?q=https://github.com/kmu2030/PwshOpcUaClient).
+**UAMotionLinkLib** exposes motion FB operations as a pseudo-UA method, as demonstrated in [PseudoUAMethodExample](https://github.com/kmu2030/PseudoUAMethodExample).
+It also includes a reference client (**SingleMCController**) and tests that use [PwshOpcUaClient](https://github.com/kmu2030/PwshOpcUaClient).
 
 Currently, the exposed motion FBs are limited to basic positioning operations.
 Operations such as servo power control (`MC_Power`), controlled stop (`MC_Stop`), and immediate stop (`MC_ImmediateStop`) are not provided.
@@ -106,7 +106,7 @@ The main components of the reference client are:
     The module for the reference client. This file must be imported to use the reference client.
 
   * **PwshOpcUaClient/**   
-    This is the PwshOpcUaClient. For usage, refer to [PwshOpcUaClient](https://www.google.com/search?q=https://github.com/kmu2030/PwshOpcUaClient).
+    This is the PwshOpcUaClient. For usage, refer to [PwshOpcUaClient](https://github.com/kmu2030/PwshOpcUaClient).
 
 ## How to Use the Reference Client
 The reference client is used for testing and demonstration.

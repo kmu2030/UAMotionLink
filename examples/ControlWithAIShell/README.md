@@ -59,7 +59,7 @@ When testing with an actual machine, ensure you have a way to stop or emergency 
     Refer to [Install AI Shell](https://learn.microsoft.com/en-us/powershell/utility-modules/aishell/install-aishell?view=ps-modules).
 
 2.  **SingleMCController Setup**   
-    Set up PwshOpcUaClient. Refer to [PwshOpcUaClient].
+    Set up PwshOpcUaClient. Refer to [PwshOpcUaClient](https://github.com/kmu2030/PwshOpcUaClient).
     If targeting a controller, you must authorize PwshOpcUaClient's client certificate on the controller's OPC UA server.
 
 3.  **Start the Simulator**   
